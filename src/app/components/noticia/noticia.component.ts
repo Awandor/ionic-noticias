@@ -54,7 +54,7 @@ export class NoticiaComponent implements OnInit {
                     console.log('Delete Favorite clicked');
                     this.lds.borrarFavorito(this.noticia);
                 }
-            }
+            };
 
         } else {
 
@@ -66,7 +66,7 @@ export class NoticiaComponent implements OnInit {
                     console.log('Favorite clicked');
                     this.lds.guardarFavorito(this.noticia);
                 }
-            }
+            };
 
         }
 

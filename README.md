@@ -231,10 +231,10 @@ Si en este punto borro accidentalmente algo puedo recuperarlo con > git checkout
 Que nos recontruye los archivos tal y como estaban en el último commit.
 
 Enlazamos el repositorio local con un repositorio externo en GitHub donde tenemos cuenta y hemos creado un repositorio
-git remote add origin https://github.com/Awandor/ionic-noticias.git
+`git remote add origin https://github.com/Awandor/ionic-noticias.git`
 
-Situarnos en la rama master > git branch -M master
+Situarnos en la rama master > `git branch -M master`
 
-Subir todos los cambios a la rama master remota > git push -u origin master
+Subir todos los cambios a la rama master remota > `git push -u origin master`
 
 Para reconstruir en local el código de GitHub nos bajamos el código y ejecutamos `npm install` que instala todas las dependencias
