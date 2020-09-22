@@ -1,5 +1,7 @@
 {
   "name": "noticias-app",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
